@@ -1,0 +1,7 @@
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"552d7786-cad2-4ae4-8e4f-4f928a267150","ChapterUid":"7c43ebf4-c122-431e-8c1a-9663cb609203","Score":10,"Timestamp":"2025-11-19T11:02:14.8612078Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"552d7786-cad2-4ae4-8e4f-4f928a267150","ChapterUid":"889507b7-3ed2-4d9b-bc0c-1db722907390","Score":10,"Timestamp":"2025-11-19T11:29:34.8471077Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"b7dc4b87-b0be-440d-8802-1f789d60a253","ChapterUid":"7c43ebf4-c122-431e-8c1a-9663cb609203","Score":10,"Timestamp":"2025-11-19T11:57:56.0186912Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"25a5f1a0-5518-4ab2-ba6c-80098dfdd428","ChapterUid":"7c43ebf4-c122-431e-8c1a-9663cb609203","Score":10,"Timestamp":"2025-11-24T11:32:58.3287222Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"25a5f1a0-5518-4ab2-ba6c-80098dfdd428","ChapterUid":"889507b7-3ed2-4d9b-bc0c-1db722907390","Score":10,"Timestamp":"2025-11-25T04:46:10.5492092Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"25a5f1a0-5518-4ab2-ba6c-80098dfdd428","ChapterUid":"3ee9f47d-4dad-42cb-91c4-59f23cca6fbf","Score":10,"Timestamp":"2025-11-25T06:25:25.8027386Z"}
+Kafka: отправлено сообщение в gstudy.progress: {"UserUid":"25a5f1a0-5518-4ab2-ba6c-80098dfdd428","ChapterUid":"3ba82005-eabf-4f83-bf30-fd70369bba20","Score":10,"Timestamp":"2025-11-30T16:57:10.29357Z"}
