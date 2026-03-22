@@ -1,0 +1,6 @@
+@Game.Quest_HostAddress = http://localhost:5282
+
+GET {{Game.Quest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

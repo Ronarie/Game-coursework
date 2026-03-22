@@ -1,6 +1,6 @@
 @Game.Auth_HostAddress = http://localhost:5290
 
-GET {{GAme.Auth_HostAddress}}/weatherforecast/
+GET {{Game.Auth_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
