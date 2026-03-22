@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Auth", "GStudy.Auth\Game.Auth.csproj", "{117BE006-0335-4EC8-9B0F-CB48089DC672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Auth", "Game.Auth\Game.Auth.csproj", "{117BE006-0335-4EC8-9B0F-CB48089DC672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Wiki", "Gstudy.Quest\Game.Wiki.csproj", "{66FD4E2A-EE45-46DA-8A98-031A5189066D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Wiki", "Game.Wiki\Game.Wiki.csproj", "{66FD4E2A-EE45-46DA-8A98-031A5189066D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Kafka.Contracts", "GStudy.Kafka.Contracts\Game.Kafka.Contracts.csproj", "{C0928A5A-CA8D-4E96-B5E4-BA65DA32E94D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Kafka.Contracts", "Game.Kafka.Contracts\Game.Kafka.Contracts.csproj", "{C0928A5A-CA8D-4E96-B5E4-BA65DA32E94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

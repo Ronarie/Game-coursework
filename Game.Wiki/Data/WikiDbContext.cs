@@ -17,18 +17,27 @@ namespace Game.Wiki.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Location>()
-                .HasMany(l => l.Item)
+                .HasMany(l => l.Items)
+                .WithOne(i => i.Location)
+                .HasForeignKey(i => i.LocationId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Category>()
-                .HasMany(c => c.Item)
+                .HasMany(c => c.Items)
+                .WithOne(i => i.Category)
+                .HasForeignKey(i => i.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Item>()
                 .HasOne(p => p.Location)
-                .WithOne(a => a.Type)
-                .HasForeignKey(p => p.LocationName)
-                .HasForeignKey(p => p.TypeName)
+                .WithMany()
+                .HasForeignKey(p => p.Location)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Item>()
+                .HasOne(a => a.Category)
+                .WithMany()
+                .HasForeignKey(p => p.Category)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Item>().HasIndex(c => c.ItemUid).IsUnique();

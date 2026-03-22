@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GStudy.Kafka.Contracts\GStudy.Kafka.Contracts.csproj" />
+    <ProjectReference Include="..\Game.Kafka.Contracts\Game.Kafka.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
