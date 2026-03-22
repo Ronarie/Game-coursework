@@ -7,7 +7,7 @@ namespace Game.Wiki
     public class KafkaClient
     {
         private readonly string _bootstrapServers = "localhost:9092";
-        private readonly string _topic = "gstudy.progress";
+        private readonly string _topic = "game.status";
 
         public async Task PublishProgressMessageAsync(ProgressMessage message)
         {
