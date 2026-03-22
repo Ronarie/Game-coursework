@@ -1,6 +1,6 @@
-@GStudy.Auth_HostAddress = http://localhost:5290
+@Game.Auth_HostAddress = http://localhost:5290
 
-GET {{GStudy.Auth_HostAddress}}/weatherforecast/
+GET {{GAme.Auth_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
